@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Todo app</title>
+    <script type="text/javascript" src="app.js">
+    </script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1>Todo app</h1>
+    <div class="todo">
+      <div id="todo-list" class="inline">
+        <h3>My TO-DOs</h3>
+      </div>
+      <div id="done" class="inline">
+        <h3>Done!</h3>
+      </div>
+      <div id="waiting" class="inline">
+        <h3>Wainting...</h3>
+      </div>
+      <br>
+      <br>
+    </div>
+    <div>
+      <input type="text" id="input" name="todo" value="" placeholder="Todo description ...">
+      <input type="button" name="button" value="ADD" onclick="createTask()">
+    </div>
+  </body>
+</html>
